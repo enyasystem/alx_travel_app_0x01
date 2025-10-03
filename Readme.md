@@ -1,6 +1,6 @@
-# 🏠 ALX Travel App 0x00
+# 🏠 ALX Travel App 0x01
 
-Welcome to the ALX Travel App 0x00 project! This Django app demonstrates database modeling, API serialization, and data seeding for a travel booking platform.
+Welcome to the ALX Travel App 0x01 project! This Django app demonstrates database modeling, API serialization, and data seeding for a travel booking platform.
 
 ## 🚀 Features
 - Listings for properties (apartments, houses, etc.)
@@ -26,7 +26,16 @@ Welcome to the ALX Travel App 0x00 project! This Django app demonstrates databas
 - `/listings/` : List and manage property listings
 - `/bookings/` : List and manage bookings
 
-## 📝 Example Usage
+## � API Documentation (Swagger)
+
+After starting the dev server you can view interactive API docs:
+
+- Swagger UI: `/api/docs/swagger/`
+- Redoc: `/api/docs/redoc/`
+
+These pages are served by `drf_yasg` and will show schemas for the Listings and Bookings endpoints.
+
+## �📝 Example Usage
 - Add a new listing
 - Book a property for a guest
 - Leave a review for a listing
